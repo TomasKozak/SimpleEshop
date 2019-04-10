@@ -1,0 +1,1 @@
+Aim of this project was to create simple eshop for electronics. It was for school course named Web Applications. It was my introduction into php language, logic of website's backend and also a brief introduction into SQL and database logic. NOTICE that without a proper webserver, website wont show in browser. I couldnt include webserver here due to copyright reasons.
