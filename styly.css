@@ -1,0 +1,115 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+}
+header {
+	background-image: url('obrazky/logo.gif');
+	background-repeat: no-repeat;
+	background-position: right top; 
+	background-color: #FFE0E0;
+	height: 70px;
+}
+header h1 {
+	color: #9F0000;
+	font-style: italic;
+	margin: 0;
+}
+nav {
+	background-color: #666666;
+	font-size: 120%;
+}
+nav a {
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 0 1.5em;
+}
+nav a:hover {
+	color: #333333;
+	background-color: #CCCCCC;
+}
+section {
+	background-color: #E6E6E6;
+	width: 68%;
+	float: left;
+}
+footer {
+	color: #CCCCCC;
+	background-color: #666666;
+	text-align: center;
+	font-size: 0.7em;
+	clear: both;
+}
+section, aside {
+	padding: 1%;
+}
+aside {
+	border: 3px double #CCCCCC;
+	margin: 2%;
+	width: 22%;
+	float: right;
+}
+aside h1 {
+	color: #9F0000;
+}
+aside p {
+	background-color: #FFE0E0;
+}
+aside em {
+	border-bottom: 3px double #666666;
+	background-color: #CCCCCC;
+}
+section a {
+	color: #9F0000;
+	font-weight: bold;
+}
+header h1 {
+	padding-left: 1%;
+	padding-top: 1%; 
+}
+section ul {
+	list-style-type: none;
+	list-style-image: url('obrazky/zastrcka.gif');
+}
+section table {
+	width: 100%;
+	border-collapse: collapse;
+}
+section th {
+	background-color: #FFE0E0;
+}
+section th, section td {
+	padding: 0.5em;
+	border: 1px solid #666666;
+}
+#tovar {
+	width: 60%;
+}
+.nazov {
+	border-bottom: 3px double #000000;
+	font-style: italic;
+	font-weight: bold;
+}
+td.cena {
+	text-align: right;
+	font-weight: bold;
+	color: #9F0000; 
+}
+td.foto {
+	background-color: #FFFFFF;
+	text-align: center;
+}
+fieldset {
+	width: 80%;
+	margin: 10px 0;
+	border: 1px solid #9F0000;
+}
+legend {
+	font-weight: bold;
+	background-color: #9F0000;
+	color: #FFFFFF;
+	padding: 0.5em;
+}
+.chyba {
+	color: #FF0000;
+}
